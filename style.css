@@ -1,0 +1,174 @@
+@import url(//db.onlinewebfonts.com/c/ff2ec7830183a9d897824cf3fe6f0385?family=FC+BARCELONA);
+@font-face {
+    font-family: "FC BARCELONA";
+    src: url("//db.onlinewebfonts.com/t/ff2ec7830183a9d897824cf3fe6f0385.eot");
+    src: url("//db.onlinewebfonts.com/t/ff2ec7830183a9d897824cf3fe6f0385.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ff2ec7830183a9d897824cf3fe6f0385.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ff2ec7830183a9d897824cf3fe6f0385.woff") format("woff"), url("//db.onlinewebfonts.com/t/ff2ec7830183a9d897824cf3fe6f0385.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ff2ec7830183a9d897824cf3fe6f0385.svg#FC BARCELONA") format("svg");
+}
+
+body {
+    font-family: "FC BARCELONA", Arial, Helvetica Neue, Helvetica, sans-serif;
+    padding-top: 50px;
+    background: linear-gradient(65deg, #cd122d, #154284);
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #181733;
+    width: 100%;
+    z-index: 99;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#main {
+    text-align: center;
+    min-width: 700px;
+    margin: 0 auto;
+}
+
+#main h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 8vh;
+}
+
+#main p {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    font-size: 3vh;
+}
+
+#img-div {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+}
+
+#img-caption {
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+#tribute-info {
+    min-width: 700px;
+    margin: 0 auto;
+}
+
+#tribute-info h2 {
+    text-align: center;
+}
+
+#tribute-info ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#tribute-info li {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.legend {
+    position: relative;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.legend .legend-img {
+    width: 100%;
+    height: 100%;
+}
+
+.legend .legend-overlay {
+    background: linear-gradient( 65deg, rgba(205, 18, 45, 0.7) 0, rgba(21, 65, 132, 0.7));
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+}
+
+.legend .legend-overlay:hover {
+    opacity: 1;
+}
+
+.legend-name {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.legend-position {
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+#follow {
+    text-align: center;
+    background: #181733;
+    padding: 3px 0;
+    margin: 0;
+    min-width: 700px;
+}
+
+#follow h2 {
+    color: #fff;
+}
+
+#follow ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#follow li {
+    margin: 0 10px;
+    font-size: 2em;
+}
+
+#follow li a {
+    color: #fff;
+}
